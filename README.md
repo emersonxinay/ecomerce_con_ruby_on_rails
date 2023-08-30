@@ -1,24 +1,39 @@
-# README
+# E-commerce con Ruby On Rails 
+## Requsitos para hacer andar este proyecto 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<ul>
+  <li>ruby 3.2.1 </li>
+  <li>Rails 7.0.7.2 </li>
+</ul>
 
-Things you may want to cover:
+## clonar proyecto 
+```bash
+git clone git@github.com:emersonxinay/ecomerce_con_ruby_on_rails.git
+```
+## ubicarme a la carpeta 
+```bash
+cd ecomerce_con_ruby_on_rails
+```
 
-* Ruby version
+## instalar todas las dependencia
+```bash
+bundle install
+```
 
-* System dependencies
+## crear la base de datos 
+```bash
+rails db:create
+```
 
-* Configuration
+## para migrar los datos 
+```bash
+rails db:migrate
+```
 
-* Database creation
+## para correr el programa
+```bash
+rails s
+```
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

@@ -34,6 +34,10 @@ rails db:migrate
 ```bash
 rails s
 ```
+### imagen demo
+<img href="./app/assets/images/inicio.png">
 
+<img href="./app/assets/images/compra.png">
 
+<img href="./app/assets/images/admin.png">
 
